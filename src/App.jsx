@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 // 替换了可能导致命名冲突的 Route 组件，改用原生的 MapPin 等保证稳定性
-import { Sparkles, MapPin, Compass, Navigation, X, Heart, CloudRain, Utensils, TreeDeciduous, Bell, Search, Mic, Clock, Users, DollarSign, ShoppingBag, Droplets, ChevronLeft, ArrowRight, Bookmark, Activity, Camera, Ticket, Award, MessageSquare, Info, Map as MapIcon, Layers, Zap, GripHorizontal } from 'lucide-react';
+import { Sparkles, MapPin, Compass, Navigation, X, Heart, CloudRain, Utensils, TreeDeciduous,
+  Bell, Search, Mic, Clock, Users, DollarSign, ShoppingBag, Droplets, ChevronLeft,
+  ArrowRight, Bookmark, Activity, Camera, Ticket, Award, MessageSquare, Info,
+  Map as MapIcon, Layers, Zap, GripHorizontal, Route } from 'lucide-react';
 import logoImg from './assets/momenthunt_logo.png';
 // ==========================================
 // 1. 数据配置与高级动态散射引擎
